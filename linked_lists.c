@@ -32,7 +32,11 @@ size_t print_listint(const listint_t *h)
  */
 listint_t *add_nodeint_end(listint_t **head, const int n)
 {
+<<<<<<< HEAD
 	listint_t *new;
+=======
+    listint_t *new;
+>>>>>>> 94a71fd54d4ba703742e33a692a164ffb144ed73
 	listint_t *current;
  
 	current = *head;
@@ -53,7 +57,11 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
     	current->next = new;
 	}
  
+<<<<<<< HEAD
     return (new);
+=======
+	return (new);
+>>>>>>> 94a71fd54d4ba703742e33a692a164ffb144ed73
 }
  
 /**
@@ -72,3 +80,7 @@ void free_listint(listint_t *head)
     	free(current);
 	}
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 94a71fd54d4ba703742e33a692a164ffb144ed73
